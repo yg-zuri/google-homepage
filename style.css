@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+header {
+	display: flex;
+	padding: 16px;
+}
+nav {
+	margin-left: auto;
+	display: flex;
+	gap: 32px;
+	/* align-items: center; */
+}
+.lang {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	font-size: 12px;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	gap: 18px;
+	margin-top: 20px;
+}
+button {
+	border: 0;
+	outline: none;
+	padding: 12px 15px;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+	color: #202124;
+}
+.languages {
+	display: inline;
+	padding-left: 10px;
+}
+li {
+	list-style: none;
+}
+.languages li {
+	display: inline;
+
+	margin-right: 8px;
+}
+.languages li a {
+	text-decoration: none;
+}
+.links {
+	display: flex;
+	/* align-items: baseline; */
+	gap: 16px;
+}
+.avi {
+	display: flex;
+	gap: 25px;
+	position: relative;
+}
+.avi img {
+	height: 20px;
+}
+.avi img:hover {
+	background-color: #eff0f0;
+	outline: hsl(201, 99%, 41%);
+}
+.bottomnav {
+	display: flex;
+	padding-right: 20px;
+	margin-right: 0;
+	color: #70757a;
+}
+.begin {
+	display: flex;
+	margin-right: auto;
+	gap: 16px;
+	padding-left: 20px;
+}
+
+.country {
+	padding-left: 20px;
+	color: #70757a;
+}
+.end {
+	display: flex;
+	gap: 16px;
+}
+
+.links a {
+	text-decoration: none;
+	color: hsl(225, 6%, 13%);
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.google {
+	height: 250px;
+}
+.google img {
+	display: block;
+	height: 100%;
+}
+
+footer {
+	background-color: #f2f2f2;
+	height: 106px;
+	padding-top: 16px;
+}
+main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	flex: 1;
+}
+input {
+	width: 90%;
+	height: 45px;
+	border: 1px solid hsl(0, 0%, 85%);
+	border-radius: 25px;
+}
+.inputside {
+	display: flex;
+	align-items: center;
+	margin-top: -35px;
+	width: 600px;
+}
+.inputside img {
+	height: 24px;
+}
+
+.initials {
+	background-color: hsl(201, 99%, 41%);
+	font-size: 1rem;
+	position: relative;
+	bottom: 5px;
+	height: 32px;
+	widows: 32px;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 32px;
+	padding-top: 3px;
+	padding-left: 12px;
+	padding-right: 12px;
+	color: white;
+}
